@@ -1,0 +1,11 @@
+name: Accessible Accordion
+author: mashalla
+category: Widgets
+tags: [dialog, tooltip, modal, window, alert, confirm]
+#docs: http://ascribedata.com/moo/dialog/
+demo: http://mashalla.github.com/accordion
+current: 1.0
+
+sources:
+  - "Source/accordion.js"
+  - "Source/demo.js"
