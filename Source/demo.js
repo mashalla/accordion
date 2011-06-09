@@ -15,7 +15,7 @@
  
  version: 1.0
  ...
- */
+*/
 window.addEvent('domready', function(){
 
     //create our Accordion instance
