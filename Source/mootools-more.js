@@ -1,25 +1,6 @@
 /*
 ---
 
-description: changes and extensions to accordion class to be conform
-to the Accordion widget according to WAI-ARIA-specification.
-(http://www.w3.org/TR/wai-aria-practices/#accordion)
-Changes are clearly marked in the code.
-
-authors:
--Eva Lösch
--Philip Fieber
--Daniel Kramer
--Christian Merz
-  
-...
-*/
-
-//MooTools More, <http://mootools.net/more>. Copyright (c) 2006-2009 Aaron Newton <http://clientcide.com/>, Valerio Proietti <http://mad4milk.net> & the MooTools team <http://mootools.net/developers>, MIT Style License.
-
-/*
----
-
 script: More.js
 
 description: MooTools More
