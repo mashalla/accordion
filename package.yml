@@ -1,7 +1,7 @@
 name: Accessible Accordion
 author: mashalla
 category: Widgets
-tags: [dialog, tooltip, modal, window, alert, confirm]
+tags: [accordion, element, window, style]
 #docs: http://ascribedata.com/moo/dialog/
 demo: http://mashalla.github.com/accordion
 current: 1.0
