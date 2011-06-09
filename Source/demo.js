@@ -1,20 +1,20 @@
 /*
- ---
- description: accessible accordion based on plugin in mootools more
+---
+description: accessible accordion based on plugin in mootools more
  
- license: MIT-style
+license: MIT-style
  
- authors:
- - Christian Merz
+authors:
+- Christian Merz
  
- requires:
- - core/1.3: '*'
- - more/1.2.4: Fx.Accordion
+requires:
+- core/1.3: '*'
+- more/1.2.4: Fx.Accordion
  
- provides: Accessible Accordion
- 
- version: 1.0
- ...
+provides: Accessible Accordion
+
+version: 1.0
+...
 */
 window.addEvent('domready', function(){
 
