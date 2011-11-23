@@ -4,7 +4,7 @@ category: Widgets
 tags: [accordion, element, window, style]
 #docs: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
 demo: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
-current: 1.0
+current: 1.2
 
 sources:
   - "Source/accordion.js"
