@@ -1,15 +1,15 @@
 /*
- ---
- script: Fx.Accordion.js
- description: An Fx.Elements extension which allows you to easily create accordion type controls.
- license: MIT-style license
- authors:
- - Eva Lösch
- - Valerio Proietti
- requires:
- - core:1.2.4/Element.Event
- - /Fx.Elements
- provides: [Fx.Accordion]
+---
+script: Fx.Accordion.js
+description: An Fx.Elements extension which allows you to easily create accordion type controls.
+license: MIT-style license
+authors:
+- Christian Merz
+- Valerio Proietti
+requires:
+- core:1.2.4/Element.Event
+- /Fx.Elements
+provides: [Fx.Accordion]
  ...
  */
 Fx.Accordion = Class.refactor(Fx.Accordion, {
