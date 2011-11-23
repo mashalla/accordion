@@ -4,7 +4,7 @@ Accessible Accordion
 The Fx.Accordion class creates a group of Elements that are toggled when their handles are clicked. When one Element toggles into view, the others toggle out.
 Widget based on original Accordion plugin of Mootools More!
 
-![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/Accordion.png)
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Accordion.png)
 
 How to use
 ----------
