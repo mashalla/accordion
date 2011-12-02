@@ -1,17 +1,17 @@
 /*
----
-script: Fx.Accordion.js
-description: An Fx.Elements extension which allows you to easily create accordion type controls.
-license: MIT-style license
-authors:
-- Eva Lösch
-- Valerio Proietti
-requires:
-- core:1.2.4/Element.Event
-- /Fx.Elements
-provides: [Fx.Accordion]
-...
-*/
+ ---
+ script: Fx.Accordion.js
+ description: An Fx.Elements extension which allows you to easily create accordion type controls.
+ license: MIT-style license
+ authors:
+ - Eva Lösch
+ - Valerio Proietti
+ requires:
+ - core:1.2.4/Element.Event
+ - /Fx.Elements
+ provides: [Fx.Accordion]
+ ...
+ */
 Fx.Accordion = Class.refactor(Fx.Accordion, {
 
 	options : {
@@ -212,11 +212,14 @@ Fx.Accordion = Class.refactor(Fx.Accordion, {
 				if(p == 'height') {
 					if(iProps[p] == 0) {
 						this.togglers[i].setProperty('aria-expanded', false);
+
+						this.togglers[i].removeClass('active');
 						this.elements[i].style.visibility = 'hidden';
 						this.elements[i].setProperty('aria-hidden', true);
 						this.elements[i].setProperty('tabindex', -1);
 					} else if(iProps[p] > 0) {
 						this.togglers[i].setProperty('aria-expanded', true);
+						this.togglers[i].addClass('active');
 						this.togglers[i].setProperty('tabindex', 0);
 						this.elements[i].style.visibility = 'visible';
 						this.elements[i].setProperty('aria-hidden', false);
